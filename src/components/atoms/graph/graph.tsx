@@ -36,13 +36,13 @@ const Graph: React.FC<IProps>=(props)=>{
                 <span>Graphical Representaion</span>
             </Row>
             <Row className="graphRow">
-                <Col  className="col-3 headingSide">
+                <Col  className="col-2 headingSide">
                     <span>High</span>
                     <span>Medium</span>
                     <span>Low</span>
                 </Col>
 
-                <Col className="col-9 graphBars">
+                <Col className="col-10 graphBars">
                     <table>
                         <tbody>
                             <tr>
