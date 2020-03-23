@@ -1,0 +1,68 @@
+.forecast{
+    width:100%;
+    padding: 0;
+
+    table{
+        width:100%;
+        border-collapse: separate;
+    border-spacing: 0 30px;
+
+        tr {
+            td{
+                width:10%;
+                text-align: center;
+            }
+            .day{
+                width:15%;
+                text-align: left;               
+                color:#939db6;
+            }
+
+            .colorGray{
+                color: #a2afb7;
+            }
+
+            .minBar{
+                width:20%;
+                position: relative;
+                justify-content: right;
+
+                .bar{
+                    background: #d1e4f8;
+                    transform: rotate(180deg);
+                    float: right;
+                    margin-right: -1%;
+                }
+            }
+            .maxBar{
+                position: relative;
+                width:20%;
+                text-align: left;
+                border-left: 2px dashed #e1f0fc;
+
+                .bar{
+                    background: #fa4400;
+                    margin-left: -1%;
+                }
+            }
+            
+            .dashed{
+                position: absolute;
+                border-top: 2px dashed #e1f0fc;
+                top:50%;
+                width:100%;
+            }
+
+            .bar{
+                height:5px;
+                position: relative;
+                border-radius: 0 10px 10px 0;
+                animation: bar 2s;
+            }
+        }
+    }
+}
+
+@keyframes bar{
+    0%{width:0;}
+}

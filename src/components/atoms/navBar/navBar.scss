@@ -1,0 +1,109 @@
+.navBar{
+    .navRow{  
+  
+        .searchArea{    
+            padding-left: 30px; 
+            padding-top: 30px;   
+            background-color: #f2fbff;
+            color:#202b5c;
+            display:flex;
+            align-items: center;
+
+            .searchIcon{
+                color:#8d8c96;
+                background-color: white;
+                padding-top:7px;
+                padding-bottom:7px;
+                border: none;
+                border-radius: 5px 0 0 5px;
+            }
+
+            // input:hover ~ .searchIcon{
+            //     background-color: green;
+            // }
+
+
+            input{
+                color:#202b5c;
+                border: none;
+                padding-top:10px;
+                padding-bottom:10px;
+                border-radius: 0 5px 5px 0;
+                // width:auto;
+                width:250px;
+
+                &::placeholder{
+                    color:#c4c3cc;
+                }
+
+                &:focus{
+                    background-color:#a0a1a8 ;
+                }
+
+            }
+
+            .dropdown{
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width:200px;
+                // background-color: lightcoral;
+
+                .dropdown-item:hover{
+                    background-color:#202b5c ;
+                    color: white;
+                }
+
+                .btn{
+                    display: inline-block;
+                    background-color: transparent;
+                    padding: 10px;
+                    margin: 0;
+                    border:none;
+                    color: #202b5c;
+                    height:auto;
+
+                    &:focus{
+                        box-shadow: none;
+                        background-color:#202b5c ;
+                        color: white;
+                    }
+
+                    &:hover{
+                        background-color:#202b5c ;
+                        color: white;
+                    }
+                }
+            }
+        }
+    
+        .profileArea{
+            padding-right: 30px;
+            padding-left: 30px;
+            padding-top: 30px;
+            background-color: #100e3b;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            span{
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+
+            .image{
+                height: 50px;
+                width: 50px;
+                border-radius:5px;
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

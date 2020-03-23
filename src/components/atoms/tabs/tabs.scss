@@ -1,0 +1,49 @@
+h4{
+    // margin-top: 25%;
+    text-align: center;
+}
+
+.tabDiv{
+    border:none;
+    border-bottom: none !important;
+    a{
+        margin-right:50px;
+        padding: 0;
+        color: #afbbc2;
+        border: none;
+        background: transparent;
+        padding-bottom: 0;
+        position:relative;
+        font-weight: 600;
+
+        &:hover{
+            color: #202b5c;
+        }
+
+        &.active{
+            color: #202b5c;
+            border: none;
+            background-color: transparent !important;
+            // border-bottom: 1px solid #202b5c;
+
+            &.active::after {
+                content:'';
+                position:absolute;
+                width:5px;
+                height:5px;
+                border-radius: 50%;
+                background:#202b5c;
+                bottom:-5px;
+                left:0;
+                right:0;
+                margin:auto;
+                transition: 0.3s;
+            }
+        }
+
+        &:inactive{
+            color: #afbbc2;
+        }
+    }
+
+}

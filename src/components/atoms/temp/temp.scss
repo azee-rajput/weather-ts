@@ -1,0 +1,46 @@
+.temp{
+    text-align:center;
+    margin:0;
+    padding: 0;
+    width:100%;
+    color: #b3b3c0;
+    .tempRow{
+        position: relative;
+        .todayRow{
+            .box{
+                display: inline-block;
+                td{
+                    padding-left: 1em;
+                }
+                .todayTd{
+                    text-align: left;
+                    .today{
+                        font-size: 36px;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .infoCol{
+            .temperature{
+                line-height: 120px;
+                font-size: 120px;
+                display: inline-block;
+                color: white;
+            }
+            .degree{
+                margin-top:-50px;
+                margin-left:0px;
+                font-size:65px;
+            }
+            .feelsRise{
+                span{
+                    margin-left: 15px;
+                    margin-right: 15px;
+                }
+            }
+
+        }
+    }
+}

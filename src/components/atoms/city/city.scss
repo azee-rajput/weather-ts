@@ -1,0 +1,34 @@
+.addCity{
+    .cityBox{
+        height: 30vh;
+        border: 1px solid;
+        border-radius: 25px;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        transition:0.5s;
+
+        span{
+            width: 100%;
+            text-align: center;
+            padding:10px;
+        }
+
+        &:hover{
+            transition:0.5s;
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .addCity {
+        // background-color: lightgreen;
+        width: auto;
+      display: inline-block;
+      height:  auto;
+      margin-bottom: 10px;
+    }
+  }

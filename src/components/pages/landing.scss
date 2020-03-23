@@ -1,0 +1,13 @@
+.landing{
+    padding: 30px;
+    background-color: #7cb2ee;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] , .landing {
+    //   width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+  }
