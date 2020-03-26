@@ -1,5 +1,5 @@
 const API_KEY = "585205b943a316d3502569db71a3fca9";
-const BASE_URL = "http://api.openweathermap.org/data/2.5/";
+const BASE_URL = "https://api.openweathermap.org/data/2.5/";
 
 let api = { 
     today: function(callback:(res:any)=>void ,lat:number, long:number){
