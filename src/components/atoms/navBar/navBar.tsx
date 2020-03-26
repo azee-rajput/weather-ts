@@ -93,7 +93,7 @@ const NavBar: React.FC=()=>{
                     onChange={(e)=>changed(e)} onKeyPress={(e)=>entering(e)} />
                     <Dropdown>
                         <Dropdown.Toggle variant="success" id="dropdown-basic">
-                            Dropdown Button
+                            All places
                         </Dropdown.Toggle>
 
                         <Dropdown.Menu>

@@ -1,6 +1,11 @@
 .landing{
-    padding: 100px;
+    // padding: 30px;
     background-color: #7cb2ee;
+    // display: flex;
+    height: 100vh;
+    // justify-content: center;
+    // align-items: center;
+    padding:4vh 20vh 4vh 20vh;
 }
 
 @media only screen and (max-width: 768px) {
@@ -9,5 +14,6 @@
     //   width: 100%;
       padding: 0;
       margin: 0;
+      height: 100%;
     }
   }

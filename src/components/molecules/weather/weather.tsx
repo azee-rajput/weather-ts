@@ -88,9 +88,9 @@ render(){
                 <Col lg={7} className="future paddingTop sidePaddings">
                     <Row className="heading"><span>Weather <b>4cast</b></span></Row>
                     <Row className="city paddingTop">
-                        <Col sm={{span:3}}><City/></Col>
-                        <Col sm={{span:3}}><City/></Col>
-                        <Col sm={{span:3}}><City/></Col>
+                        <Col sm={{span:3}}><City num={2} city={true}/></Col>
+                        <Col sm={{span:3}}><City num={0} city={true}/></Col>
+                        <Col sm={{span:3}}><City num={1} city={true}/></Col>
                         <Col sm={{span:3}}><City/></Col>
                     </Row>
                     <Row className="table4cast paddingTop">
@@ -110,7 +110,7 @@ render(){
                         condition={this.state.data.weather["0"].main}
                         day={DAY[day]} month={MONTH[month]} date={date} minutes={zoneMinutes} hours={zoneHours}/>
                     </Row>
-                    <Row className="rowGraph sidePaddings paddingTop" style={{margin:"0"}}>
+                    <Row className="rowGraph sidePaddings">
                         <Graph pressure={this.state.data["main"].pressure} 
                         humidity={this.state.data["main"].humidity}
                         minTemp={this.state.data["main"].temp_min}

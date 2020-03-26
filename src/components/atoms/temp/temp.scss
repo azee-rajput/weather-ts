@@ -17,7 +17,7 @@
                 .todayTd{
                     text-align: left;
                     .today{
-                        font-size: 36px;
+                        font-size: 24px;
                         color: white;
                     }
                 }
@@ -28,17 +28,18 @@
             padding: 0;
             margin: 0;
             .temperature{
-                line-height: 120px;
-                font-size: 120px;
+                line-height: 90px;
+                font-size: 90px;
                 display: inline-block;
                 color: white;
             }
             .degree{
                 margin-top:-50px;
                 margin-left:0px;
-                font-size:65px;
+                font-size:50px;
             }
             .feelsRise{
+                // margin-bottom: 0;
                 span{
                     margin-left: 15px;
                     margin-right: 15px;
