@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/weather-ts/static/css/main.0eaf80d8.chunk.css",
-    "main.js": "/weather-ts/static/js/main.e011a13b.chunk.js",
-    "main.js.map": "/weather-ts/static/js/main.e011a13b.chunk.js.map",
+    "main.css": "/weather-ts/static/css/main.f5f79005.chunk.css",
+    "main.js": "/weather-ts/static/js/main.9599c50a.chunk.js",
+    "main.js.map": "/weather-ts/static/js/main.9599c50a.chunk.js.map",
     "runtime-main.js": "/weather-ts/static/js/runtime-main.907a4b98.js",
     "runtime-main.js.map": "/weather-ts/static/js/runtime-main.907a4b98.js.map",
     "static/css/2.c3384713.chunk.css": "/weather-ts/static/css/2.c3384713.chunk.css",
-    "static/js/2.db7f58b5.chunk.js": "/weather-ts/static/js/2.db7f58b5.chunk.js",
-    "static/js/2.db7f58b5.chunk.js.map": "/weather-ts/static/js/2.db7f58b5.chunk.js.map",
+    "static/js/2.bf00b3f9.chunk.js": "/weather-ts/static/js/2.bf00b3f9.chunk.js",
+    "static/js/2.bf00b3f9.chunk.js.map": "/weather-ts/static/js/2.bf00b3f9.chunk.js.map",
     "index.html": "/weather-ts/index.html",
-    "precache-manifest.b2797f8d9c2552f495bdedd5bb9694c1.js": "/weather-ts/precache-manifest.b2797f8d9c2552f495bdedd5bb9694c1.js",
+    "precache-manifest.931726d97d8f6b3f1d7387bbb09a8feb.js": "/weather-ts/precache-manifest.931726d97d8f6b3f1d7387bbb09a8feb.js",
     "service-worker.js": "/weather-ts/service-worker.js",
     "static/css/2.c3384713.chunk.css.map": "/weather-ts/static/css/2.c3384713.chunk.css.map",
-    "static/css/main.0eaf80d8.chunk.css.map": "/weather-ts/static/css/main.0eaf80d8.chunk.css.map",
-    "static/js/2.db7f58b5.chunk.js.LICENSE.txt": "/weather-ts/static/js/2.db7f58b5.chunk.js.LICENSE.txt",
+    "static/css/main.f5f79005.chunk.css.map": "/weather-ts/static/css/main.f5f79005.chunk.css.map",
+    "static/js/2.bf00b3f9.chunk.js.LICENSE.txt": "/weather-ts/static/js/2.bf00b3f9.chunk.js.LICENSE.txt",
+    "static/media/berlin.jpg": "/weather-ts/static/media/berlin.b36c44e9.jpg",
     "static/media/myAvatar.png": "/weather-ts/static/media/myAvatar.b80163c5.png",
+    "static/media/nyc.jpg": "/weather-ts/static/media/nyc.188250c6.jpg",
+    "static/media/paris.jpg": "/weather-ts/static/media/paris.a632fd2a.jpg",
     "static/media/index.css": "/weather-ts/static/media/questrial-latin-400.d7cfa042.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.907a4b98.js",
     "static/css/2.c3384713.chunk.css",
-    "static/js/2.db7f58b5.chunk.js",
-    "static/css/main.0eaf80d8.chunk.css",
-    "static/js/main.e011a13b.chunk.js"
+    "static/js/2.bf00b3f9.chunk.js",
+    "static/css/main.f5f79005.chunk.css",
+    "static/js/main.9599c50a.chunk.js"
   ]
 }
