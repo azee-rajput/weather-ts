@@ -14,9 +14,9 @@ const FullDay = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday
 let day: any[]=[];
 let min: number[]=[];
 let max: number[]=[];
+let weekDay = -1;
 
 const Forecast: React.FC<IProps>=(props)=>{
-    console.log(props.day)
 
     if(props.forecast.list===undefined){
         return null;
@@ -28,6 +28,7 @@ const Forecast: React.FC<IProps>=(props)=>{
             day.splice(0, day.length);
             min.splice(0,min.length);
             max.splice(0,max.length);
+            weekDay=-1;
         }
         day.push(props.forecast.list[i*5]);
         min.push(Math.round(((props.forecast.list[i*5].main.temp_min-273.15+50)/130)*100));
@@ -41,7 +42,7 @@ const Forecast: React.FC<IProps>=(props)=>{
                     <tbody>
                         {day.map((item, index)=>
                             <tr className="week">
-                                <td className="day">{FullDay[(props.day+index)>6?index:(props.day+index)]}</td>
+                                <td className="day">{FullDay[(props.day+index)>6?weekDay=weekDay+1:(props.day+index)]}</td>
                                 <td className="colorGray"><Droplet size="15" color="#4293eb"/> {item.main.humidity+"%"}</td>
                                 <td className="icon"><Icon size="25" type="d" condition={item.weather[0].main} /></td>
                                 <td className="colorGray">{Math.round(item.main.temp_min-273.15)}<span>&deg;C</span></td>
