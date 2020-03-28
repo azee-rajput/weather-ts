@@ -8,6 +8,7 @@ import './weather.scss';
 import City from '../../atoms/city/city';
 import NavBar from '../../atoms/navBar/navBar';
 import TabView from '../../atoms/tabs/tabs';
+import { Link } from 'react-router-dom';
 
 interface IProps{
     long:number;
@@ -86,7 +87,7 @@ render(){
             <Row className="navigation"><NavBar/></Row>
             <Row className = "mainRow">
                 <Col lg={7} className="future paddingTop sidePaddings">
-                    <Row className="heading"><span>Weather <b>4cast</b></span></Row>
+                    <Link to="/" className="heading"><span>Weather <b>4cast</b></span></Link>
                     <Row className="city paddingTop">
                         <Col sm={{span:3}}><City num={2} city={true}/></Col>
                         <Col sm={{span:3}}><City num={0} city={true}/></Col>
